@@ -1,5 +1,8 @@
 name: 'Terrahelp GitHub Action'
 description: 'Runs Opencredo Terrahelp via GitHub Actions.'
+branding:
+  icon: terminal
+  color: orange
 runs:
   using: 'docker'
   image: './Dockerfile'
