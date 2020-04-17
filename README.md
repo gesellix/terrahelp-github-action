@@ -1,2 +1,3 @@
-# terrahelp-github-action
-GitHubb Action for opencredo/terrahelp
+# Terrahelp GitHub Action
+
+GitHub Action for [opencredo/terrahelp](https://github.com/opencredo/terrahelp)

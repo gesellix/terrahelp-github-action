@@ -1,0 +1,5 @@
+name: 'Terrahelp GitHub Action'
+description: 'Runs Opencredo Terrahelp via GitHub Actions.'
+runs:
+  using: 'docker'
+  image: './Dockerfile'
