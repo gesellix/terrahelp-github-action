@@ -3,6 +3,11 @@ description: 'Runs Opencredo Terrahelp via GitHub Actions.'
 branding:
   icon: terminal
   color: orange
+inputs:
+  th_working_dir:
+    description: 'Terrahelp working directory.'
+    required: false
+    default: '.'
 runs:
   using: 'docker'
   image: './Dockerfile'
