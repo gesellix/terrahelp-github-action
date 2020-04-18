@@ -11,7 +11,7 @@ function main {
   parseInputs
   cd "${GITHUB_WORKSPACE}"/"${thWorkingDir}" || exit 1
 
-  exec "terrahelp ${*}"
+  exec terrahelp "$@"
 }
 
-main "${*}"
+main "$@"
