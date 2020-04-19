@@ -11,6 +11,7 @@ function main {
   parseInputs
   cd "${GITHUB_WORKSPACE}"/"${thWorkingDir}" || exit 1
 
+  terrahelp --version
   exec terrahelp "$@"
 }
 
